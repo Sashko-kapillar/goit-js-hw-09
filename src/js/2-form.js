@@ -1,9 +1,9 @@
 //   пошук форми
 
-const inputForm = document.querySelector('.feedback-form input');
+const inputForm = document.querySelector('.feedback-form');
 inputForm.addEventListener('input', () => {
   //  очистити від пробілів
-  const textEmail = inputForm.value.trim();
+  inputForm.value.trim();
 });
 
 const feedbackEmail = localStorage.setItem('feedback-form-state', 'light');
