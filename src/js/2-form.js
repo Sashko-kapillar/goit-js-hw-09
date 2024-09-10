@@ -34,10 +34,6 @@ form.addEventListener('submit', event => {
     return;
   }
 
-  // Надсилання даних (замінено на виведення повідомлення для демонстрації)
-  console.log('Дані для відправки:', formData);
-  alert('message is go');
-
   // Очищення даних
   localStorage.removeItem('feedback-form-state');
   formData.email = '';
