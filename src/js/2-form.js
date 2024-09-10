@@ -3,7 +3,7 @@ const formData = {
   message: '',
 };
 
-const form = document.querySelector('.feedback-form');
+let form = document.querySelector('.feedback-form');
 
 // Завантаження даних з локального сховища при завантаженні сторінки
 const storedData = localStorage.getItem('feedback-form-state');
