@@ -41,7 +41,7 @@
 }
 
 .sl-wrapper .sl-close:hover {
-  color: #000;
+  color: #000 !important;
   background-color: #ccc;
 }
 
