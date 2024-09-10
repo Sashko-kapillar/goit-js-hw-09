@@ -36,7 +36,6 @@ for (const img of images) {
 }
 const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
-  captionPosition: 'top',
   captionsData: 'alt',
   showCounter: false,
 });
